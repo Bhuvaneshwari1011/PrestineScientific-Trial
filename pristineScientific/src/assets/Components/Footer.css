@@ -1,0 +1,42 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #08121d; /* Blue background */
+    color: white; /* White text for contrast */
+    padding: 20px; /* Padding for spacing */
+}
+
+.footer-section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* Align headers */
+.footer h2 {
+    margin: 10px 0; /* Margin for top and bottom */
+    text-align: left; /* Align text to the left */
+}
+
+.footer h3 {
+    margin: 10px 0; /* Margin for top and bottom */
+    text-align: left; /* Align text to the left */
+}
+
+.footer-description {
+    display: block; /* Ensures it behaves like a block element */
+    max-width: 300px; /* Limits the width for better readability */
+    margin: 0; /* Center it within the column */
+    font-size: 0.9rem; /* Smaller font size */
+    line-height: 1.4; /* Spacing between lines */
+}
+
+.footer ul {
+    list-style-type: none; /* Remove bullets from the list */
+    padding: 0; /* Remove padding */
+}
+
+.footer ul li {
+    margin: 5px 0; /* Margin for list items */
+}
+
+.text-center {
+    text-align: center; /* Center text for the copyright section */
+}
